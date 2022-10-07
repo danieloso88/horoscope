@@ -30,7 +30,7 @@ const Horoscope = () => {
         let sign = '';
 
         if ((month == 1 && day >= 20) || (month == 2 && day <= 18)) {
-            sign = 'acurarius';
+            sign = 'aquarius';
         }
         else if ((month == 2 && day >= 19) || (month == 3 && day <= 20)) {
             sign = 'pisces';
